@@ -1,0 +1,55 @@
+# Build / bin / obj
+bin/
+obj/
+
+# MonoGame generated content
+Content/bin/
+Content/obj/
+*.xnb
+*.mgcontent
+*.mgstats
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings (keep if team-shared)
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# dotnet tools cache
+.config/
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Makefile backups
+*.bak
+
+# NuGet
+*.nupkg
+project.lock.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+
+# Others (optional, keep only if you want a clean repo)
+*.db
+*.cache
+*.tmp
